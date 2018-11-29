@@ -6,7 +6,7 @@ After to clone, follow the next commands.
 docker build -t docker-python-flask .
 ```
 ```Shell
-docker run -p -d 5000:80 docker-python-flask
+docker run -d -p 5000:80 docker-python-flask
 ```
 
 Image docker dependency
